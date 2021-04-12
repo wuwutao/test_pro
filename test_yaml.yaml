@@ -1,0 +1,17 @@
+
+#实现元素属性分离
+IndexPage:
+  login_list: ['xpath','/html/body/div/div[1]/div/div[2]/div[1]/div[3]/a[1]']
+  use_control: ['class name','btn.btn-primary']
+  search_goods: ['id','search']
+
+LoginPage: 
+  user: ['id','username']
+  pwd: ['id','pwd']
+  login_clicks: ['id','login-button']
+
+GooditemsPage:
+  item_search: ['xpath','/html/body/div/div[2]/div/div/div[2]/div[3]/div/div[2]/div/div[2]/div[1]/a/img']
+
+ItemPage:
+  click_car: ['xpath','/html/body/div[1]/div[3]/div/div/div/div[2]/div[2]/div[6]/div[1]/a']
